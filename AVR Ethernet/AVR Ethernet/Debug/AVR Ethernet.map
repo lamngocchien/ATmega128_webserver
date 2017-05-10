@@ -1,0 +1,744 @@
+Archive member included because of file (symbol)
+
+c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodqi4.o)
+                              ntAVRnet.o (__udivmodqi4)
+c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodhi4.o)
+                              enc28j60.o (__udivmodhi4)
+c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodsi4.o)
+                              uart.o (__udivmodsi4)
+c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
+                              c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm32.o (exit)
+c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_copy_data.o)
+                              http.o (__do_copy_data)
+c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_clear_bss.o)
+                              arp.o (__do_clear_bss)
+
+Allocating common symbols
+Common symbol       size              file
+
+DhcpTransactID      0x4               dhcp.o
+DhcpRetries         0x1               dhcp.o
+tcpSessionTable     0xf8              tcp.o
+DhcpLeaseTime       0x4               dhcp.o
+DhcpServerIP        0x4               dhcp.o
+ARPMyAddr           0xb               arp.o
+NextPacketPtr       0x2               enc28j60.o
+macaddr             0x6               dhcp.o
+UartRxBuffer        0x8               uart.o
+test_showip         0x1               timer.o
+httpSessionTable    0xa8              http.o
+time_watchdog       0x2               ethernet.o
+ARPTable            0x58              arp.o
+UartTxBuffer        0x8               uart.o
+Enc28j60Bank        0x1               enc28j60.o
+http_auth_password  0x14              http.o
+UartRxBufferStart   0x1               uart.o
+UartTxBufferStart   0x1               uart.o
+UartTxBufferLen     0x1               uart.o
+IpMyConfig          0x12              ip.o
+ethBuffer           0x41e             ethernet.o
+UartRxBufferLen     0x1               uart.o
+DhcpTimeout         0x1               dhcp.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm32.o
+LOAD arp.o
+LOAD dhcp.o
+LOAD enc28j60.o
+LOAD ethernet.o
+LOAD http.o
+LOAD icmp.o
+LOAD ip.o
+LOAD ntAVRnet.o
+LOAD tcp.o
+LOAD timer.o
+LOAD uart.o
+LOAD udp.o
+LOAD c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libm.a
+LOAD c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a
+LOAD c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a
+LOAD c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x5988
+ *(.vectors)
+ .vectors       0x00000000       0x54 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm32.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+ .progmem.data  0x00000054      0x165 dhcp.o
+ .progmem.data  0x000001b9       0x2c enc28j60.o
+                0x000001b9                enc28j60_config
+ .progmem.data  0x000001e5     0x104f http.o
+                0x000001e5                Page1
+                0x0000102c                Auth_str
+                0x0000103a                http_pageheader_ok
+                0x00001092                http_pageheader_unauth
+                0x00001114                http_pageheader_auth_error
+                0x00001129                http_error_notimp
+                0x000011b3                BASE64CODE
+ .progmem.data  0x00001234       0x6d ip.o
+ .progmem.data  0x000012a1       0xce ntAVRnet.o
+ .progmem.data  0x0000136f       0x11 uart.o
+                0x00001380                . = ALIGN (0x2)
+                0x00001380                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00001380        0x0 linker stubs
+ *(.trampolines*)
+                0x00001380                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00001380                __ctors_start = .
+ *(.ctors)
+                0x00001380                __ctors_end = .
+                0x00001380                __dtors_start = .
+ *(.dtors)
+                0x00001380                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00001380        0x0 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm32.o
+                0x00001380                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00001380        0xc c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm32.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000138c       0x16 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_copy_data.o)
+                0x0000138c                __do_copy_data
+ .init4         0x000013a2       0x10 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_clear_bss.o)
+                0x000013a2                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000013b2        0x8 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm32.o
+ *(.init9)
+ *(.text)
+ .text          0x000013ba        0x4 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm32.o
+                0x000013ba                __vector_1
+                0x000013ba                __vector_12
+                0x000013ba                __bad_interrupt
+                0x000013ba                __vector_6
+                0x000013ba                __vector_11
+                0x000013ba                __vector_17
+                0x000013ba                __vector_19
+                0x000013ba                __vector_7
+                0x000013ba                __vector_5
+                0x000013ba                __vector_4
+                0x000013ba                __vector_2
+                0x000013ba                __vector_8
+                0x000013ba                __vector_14
+                0x000013ba                __vector_10
+                0x000013ba                __vector_16
+                0x000013ba                __vector_18
+                0x000013ba                __vector_20
+ .text          0x000013be      0x5a8 arp.o
+                0x000013be                arpInit
+                0x000013da                arpSetAddress
+                0x00001400                arpSearchIP
+                0x0000142c                arpUpdateEntry
+                0x00001558                arpArpProcess
+                0x000017e2                arpIPPacketIn
+                0x0000184e                arpIpOut
+                0x0000194a                arpTimer
+ .text          0x00001966      0xcfc dhcp.o
+                0x00001966                dhcpInit
+                0x000019ac                dhcpSetOption
+                0x00001a00                dhcpGetOption
+                0x00001a5e                dhcpPrintHeader
+                0x00001d3e                dhcpDiscover
+                0x00001ef2                dhcpRequest
+                0x00001fdc                dhcpIn
+                0x00002378                dhcpRelease
+                0x00002602                dhcpTimer
+                0x00002640                dhcpService
+ .text          0x00002662      0x36a enc28j60.o
+                0x00002662                enc28j60SPIRead
+                0x00002686                enc28j60SPIWrite
+                0x0000269c                enc28j60SetBank
+                0x000026ee                enc28j60ReadBuffer
+                0x00002712                enc28j60WriteBuffer
+                0x00002732                enc28j60Read
+                0x00002746                enc28j60Write
+                0x00002762                enc28j60PhyRead
+                0x000027b2                enc28j60PhyWrite
+                0x000027e4                enc28j60PacketSend
+                0x0000283a                enc28j60PacketReceive
+                0x0000290e                delay_us
+                0x00002938                enc28j60Init
+ .text          0x000029cc      0x198 ethernet.o
+                0x000029cc                ethInit
+                0x000029d8                ethSendFrame
+                0x000029de                ethGetFrame
+                0x000029e4                ethGetMacAddress
+                0x00002a4a                ethSetMacAddress
+                0x00002abe                ethGetBuffer
+                0x00002ac4                __vector_3
+                0x00002af0                ethService
+ .text          0x00002b64      0xa68 http.o
+                0x00002b64                decode_base64
+                0x00002c78                httpInit
+                0x00002ca6                httpGetRequest
+                0x00002dc2                httpHeaderGetField
+                0x00002e40                HTTPSend
+                0x000030f8                findstr
+                0x0000315c                findstrdatamem
+                0x000031cc                httpDataIn
+ .text          0x000035cc       0x8e icmp.o
+                0x000035cc                icmpEchoReply
+                0x0000364c                icmpIpIn
+ .text          0x0000365a      0x5bc ip.o
+                0x0000365a                ipChecksum
+                0x000036e2                ipSetConfig
+                0x0000376c                ipGetConfig
+                0x00003772                ethPrintAddr
+                0x000037ea                ipPrintAddr
+                0x00003870                ipPrintConfig
+                0x00003918                ipSend
+                0x00003b16                IPProcess
+ .text          0x00003c16      0x534 ntAVRnet.o
+                0x00003c16                Read2Nib
+                0x00003c3c                Write2Nib
+                0x00003c5a                Write8Bit
+                0x00003c62                wait_LCD
+                0x00003c9a                init_LCD
+                0x00003cd4                home_LCD
+                0x00003ce2                move_LCD
+                0x00003cfa                clr_LCD
+                0x00003d08                putChar_LCD
+                0x00003d14                print_LCD
+                0x00003d3e                off_device
+                0x00003d66                on_device
+                0x00003d8e                GetState
+                0x00003dd8                lcd_show_number
+                0x00003e36                network_out
+                0x00003ecc                showip
+                0x00003f0a                netInit
+                0x00003f58                PrintIPConfig
+                0x00004030                SystemInit
+                0x00004050                EthernetInit
+                0x0000412e                Demo
+                0x00004134                main
+ .text          0x0000414a     0x1210 tcp.o
+                0x0000414a                TCPInitSequenceNumber
+                0x00004154                TCPCloseSession
+                0x00004170                TCPInit
+                0x00004184                TCPGetFreeSession
+                0x000041ce                TCPCreateSession
+                0x00004222                TCPCheckTimeOut
+                0x0000425c                checksum
+                0x00004304                TCPPackedSend
+                0x00004654                TCPProcess
+ .text          0x0000535a       0xc2 timer.o
+                0x0000535a                timer1Init
+                0x00005378                __vector_9
+ .text          0x0000541c      0x2fe uart.o
+                0x0000541c                uartInit
+                0x0000548c                __vector_15
+                0x000054e4                __vector_13
+                0x0000553e                uartGetByte
+                0x00005576                uartSendByte
+                0x000055b4                printfP
+ .text          0x0000571a      0x1e6 udp.o
+                0x0000571a                udpSend
+                0x000058f4                UDPProcess
+ .text          0x00005900        0x0 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodqi4.o)
+ .text          0x00005900        0x0 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodhi4.o)
+ .text          0x00005900        0x0 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x00005900        0x0 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
+ .text          0x00005900        0x0 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_copy_data.o)
+ .text          0x00005900        0x0 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_clear_bss.o)
+                0x00005900                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x00005900       0x18 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodqi4.o)
+                0x00005900                __udivmodqi4
+ .text.libgcc   0x00005918       0x28 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodhi4.o)
+                0x00005918                __udivmodhi4
+ .text.libgcc   0x00005940       0x44 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodsi4.o)
+                0x00005940                __udivmodsi4
+ .text.libgcc   0x00005984        0x0 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00005984        0x0 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00005984        0x0 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_clear_bss.o)
+                0x00005984                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00005984        0x0 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
+                0x00005984                _exit
+                0x00005984                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00005984        0x4 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00005988                _etext = .
+
+.data           0x00800060       0x20 load address 0x00005988
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm32.o
+ .data          0x00800060        0x0 arp.o
+ .data          0x00800060        0x0 dhcp.o
+ .data          0x00800060        0x0 enc28j60.o
+ .data          0x00800060        0x0 ethernet.o
+ .data          0x00800060        0xc http.o
+ .data          0x0080006c        0x0 icmp.o
+ .data          0x0080006c        0x0 ip.o
+ .data          0x0080006c       0x14 ntAVRnet.o
+ .data          0x00800080        0x0 tcp.o
+ .data          0x00800080        0x0 timer.o
+ .data          0x00800080        0x0 uart.o
+ .data          0x00800080        0x0 udp.o
+ .data          0x00800080        0x0 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodqi4.o)
+ .data          0x00800080        0x0 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodhi4.o)
+ .data          0x00800080        0x0 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x00800080        0x0 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
+ .data          0x00800080        0x0 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_copy_data.o)
+ .data          0x00800080        0x0 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_clear_bss.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00800080                . = ALIGN (0x2)
+                0x00800080                _edata = .
+                0x00800080                PROVIDE (__data_end, .)
+
+.bss            0x00800080      0x678
+                0x00800080                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800080        0x0 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm32.o
+ .bss           0x00800080        0x0 arp.o
+ .bss           0x00800080        0x0 dhcp.o
+ .bss           0x00800080        0x0 enc28j60.o
+ .bss           0x00800080        0x1 ethernet.o
+                0x00800080                eth_got_frame
+ .bss           0x00800081        0x0 http.o
+ .bss           0x00800081        0x0 icmp.o
+ .bss           0x00800081        0x0 ip.o
+ .bss           0x00800081        0x0 ntAVRnet.o
+ .bss           0x00800081        0x0 tcp.o
+ .bss           0x00800081        0x2 timer.o
+ .bss           0x00800083        0x0 uart.o
+ .bss           0x00800083        0x0 udp.o
+ .bss           0x00800083        0x0 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodqi4.o)
+ .bss           0x00800083        0x0 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodhi4.o)
+ .bss           0x00800083        0x0 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x00800083        0x0 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
+ .bss           0x00800083        0x0 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00800083        0x0 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_clear_bss.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x00800083       0x63 arp.o
+                0x00800083                ARPMyAddr
+                0x0080008e                ARPTable
+ COMMON         0x008000e6       0x14 dhcp.o
+                0x008000e6                DhcpTransactID
+                0x008000ea                DhcpRetries
+                0x008000eb                DhcpLeaseTime
+                0x008000ef                DhcpServerIP
+                0x008000f3                macaddr
+                0x008000f9                DhcpTimeout
+ COMMON         0x008000fa        0x3 enc28j60.o
+                0x008000fa                NextPacketPtr
+                0x008000fc                Enc28j60Bank
+ COMMON         0x008000fd      0x420 ethernet.o
+                0x008000fd                time_watchdog
+                0x008000ff                ethBuffer
+ COMMON         0x0080051d       0xbc http.o
+                0x0080051d                httpSessionTable
+                0x008005c5                http_auth_password
+ COMMON         0x008005d9       0x12 ip.o
+                0x008005d9                IpMyConfig
+ COMMON         0x008005eb       0xf8 tcp.o
+                0x008005eb                tcpSessionTable
+ COMMON         0x008006e3        0x1 timer.o
+                0x008006e3                test_showip
+ COMMON         0x008006e4       0x14 uart.o
+                0x008006e4                UartRxBuffer
+                0x008006ec                UartTxBuffer
+                0x008006f4                UartRxBufferStart
+                0x008006f5                UartTxBufferStart
+                0x008006f6                UartTxBufferLen
+                0x008006f7                UartRxBufferLen
+                0x008006f8                PROVIDE (__bss_end, .)
+                0x00005988                __data_load_start = LOADADDR (.data)
+                0x000059a8                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008006f8        0x0
+                0x008006f8                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x008006f8                PROVIDE (__noinit_end, .)
+                0x008006f8                _end = .
+                0x008006f8                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x00000000      0x6cc
+ *(.stab)
+ .stab          0x00000000      0x6cc c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm32.o
+
+.stabstr        0x00000000       0x90
+ *(.stabstr)
+ .stabstr       0x00000000       0x90 c:/program files (x86)/atmel/avr studio 5.1/extensions/atmel/avrgcc/3.3.1.27/avrtoolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm32.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x180
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 arp.o
+ .debug_aranges
+                0x00000020       0x20 dhcp.o
+ .debug_aranges
+                0x00000040       0x20 enc28j60.o
+ .debug_aranges
+                0x00000060       0x20 ethernet.o
+ .debug_aranges
+                0x00000080       0x20 http.o
+ .debug_aranges
+                0x000000a0       0x20 icmp.o
+ .debug_aranges
+                0x000000c0       0x20 ip.o
+ .debug_aranges
+                0x000000e0       0x20 ntAVRnet.o
+ .debug_aranges
+                0x00000100       0x20 tcp.o
+ .debug_aranges
+                0x00000120       0x20 timer.o
+ .debug_aranges
+                0x00000140       0x20 uart.o
+ .debug_aranges
+                0x00000160       0x20 udp.o
+
+.debug_pubnames
+                0x00000000      0x953
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0xac arp.o
+ .debug_pubnames
+                0x000000ac      0x113 dhcp.o
+ .debug_pubnames
+                0x000001bf      0x150 enc28j60.o
+ .debug_pubnames
+                0x0000030f       0xca ethernet.o
+ .debug_pubnames
+                0x000003d9      0x14f http.o
+ .debug_pubnames
+                0x00000528       0x31 icmp.o
+ .debug_pubnames
+                0x00000559       0x9c ip.o
+ .debug_pubnames
+                0x000005f5      0x142 ntAVRnet.o
+ .debug_pubnames
+                0x00000737       0xcd tcp.o
+ .debug_pubnames
+                0x00000804       0x40 timer.o
+ .debug_pubnames
+                0x00000844       0xe2 uart.o
+ .debug_pubnames
+                0x00000926       0x2d udp.o
+
+.debug_info     0x00000000     0x3473
+ *(.debug_info)
+ .debug_info    0x00000000      0x4c1 arp.o
+ .debug_info    0x000004c1      0x53c dhcp.o
+ .debug_info    0x000009fd      0x46d enc28j60.o
+ .debug_info    0x00000e6a      0x34f ethernet.o
+ .debug_info    0x000011b9      0x9b9 http.o
+ .debug_info    0x00001b72      0x1e0 icmp.o
+ .debug_info    0x00001d52      0x3e6 ip.o
+ .debug_info    0x00002138      0x471 ntAVRnet.o
+ .debug_info    0x000025a9      0x5bc tcp.o
+ .debug_info    0x00002b65      0x11b timer.o
+ .debug_info    0x00002c80      0x39f uart.o
+ .debug_info    0x0000301f      0x454 udp.o
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0xe64
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x10f arp.o
+ .debug_abbrev  0x0000010f      0x15c dhcp.o
+ .debug_abbrev  0x0000026b      0x144 enc28j60.o
+ .debug_abbrev  0x000003af      0x147 ethernet.o
+ .debug_abbrev  0x000004f6      0x1e7 http.o
+ .debug_abbrev  0x000006dd       0xb1 icmp.o
+ .debug_abbrev  0x0000078e      0x126 ip.o
+ .debug_abbrev  0x000008b4      0x190 ntAVRnet.o
+ .debug_abbrev  0x00000a44      0x17a tcp.o
+ .debug_abbrev  0x00000bbe       0x91 timer.o
+ .debug_abbrev  0x00000c4f      0x14e uart.o
+ .debug_abbrev  0x00000d9d       0xc7 udp.o
+
+.debug_line     0x00000000     0x31dc
+ *(.debug_line)
+ .debug_line    0x00000000      0x305 arp.o
+ .debug_line    0x00000305      0x59e dhcp.o
+ .debug_line    0x000008a3      0x55b enc28j60.o
+ .debug_line    0x00000dfe      0x25c ethernet.o
+ .debug_line    0x0000105a      0x8db http.o
+ .debug_line    0x00001935       0xd1 icmp.o
+ .debug_line    0x00001a06      0x297 ip.o
+ .debug_line    0x00001c9d      0x692 ntAVRnet.o
+ .debug_line    0x0000232f      0x768 tcp.o
+ .debug_line    0x00002a97      0x18d timer.o
+ .debug_line    0x00002c24      0x466 uart.o
+ .debug_line    0x0000308a      0x152 udp.o
+
+.debug_frame    0x00000000      0x6e0
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x90 arp.o
+ .debug_frame   0x00000090       0xb0 dhcp.o
+ .debug_frame   0x00000140       0xe0 enc28j60.o
+ .debug_frame   0x00000220       0x90 ethernet.o
+ .debug_frame   0x000002b0       0x90 http.o
+ .debug_frame   0x00000340       0x30 icmp.o
+ .debug_frame   0x00000370       0x90 ip.o
+ .debug_frame   0x00000400      0x170 ntAVRnet.o
+ .debug_frame   0x00000570       0xa0 tcp.o
+ .debug_frame   0x00000610       0x30 timer.o
+ .debug_frame   0x00000640       0x70 uart.o
+ .debug_frame   0x000006b0       0x30 udp.o
+
+.debug_str      0x00000000      0xd65
+ *(.debug_str)
+ .debug_str     0x00000000      0x215 arp.o
+                                0x26a (size before relaxing)
+ .debug_str     0x00000215      0x1c0 dhcp.o
+                                0x296 (size before relaxing)
+ .debug_str     0x000003d5      0x170 enc28j60.o
+                                0x258 (size before relaxing)
+ .debug_str     0x00000545       0xa6 ethernet.o
+                                0x212 (size before relaxing)
+ .debug_str     0x000005eb      0x2a4 http.o
+                                0x3b0 (size before relaxing)
+ .debug_str     0x0000088f       0x47 icmp.o
+                                0x140 (size before relaxing)
+ .debug_str     0x000008d6       0x9d ip.o
+                                0x239 (size before relaxing)
+ .debug_str     0x00000973      0x10f ntAVRnet.o
+                                0x242 (size before relaxing)
+ .debug_str     0x00000a82      0x140 tcp.o
+                                0x30f (size before relaxing)
+ .debug_str     0x00000bc2       0x4e timer.o
+                                0x139 (size before relaxing)
+ .debug_str     0x00000c10      0x111 uart.o
+                                0x223 (size before relaxing)
+ .debug_str     0x00000d21       0x44 udp.o
+                                0x28c (size before relaxing)
+
+.debug_loc      0x00000000     0x2c1a
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x2a6 arp.o
+ .debug_loc     0x000002a6      0x3a8 dhcp.o
+ .debug_loc     0x0000064e      0x3a1 enc28j60.o
+ .debug_loc     0x000009ef      0x16e ethernet.o
+ .debug_loc     0x00000b5d      0xe51 http.o
+ .debug_loc     0x000019ae       0xc6 icmp.o
+ .debug_loc     0x00001a74      0x368 ip.o
+ .debug_loc     0x00001ddc      0x284 ntAVRnet.o
+ .debug_loc     0x00002060      0x671 tcp.o
+ .debug_loc     0x000026d1      0x3dc uart.o
+ .debug_loc     0x00002aad      0x16d udp.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(AVR Ethernet.elf elf32-avr)
+LOAD linker stubs
+
+.debug_pubtypes
+                0x00000000      0x3ad
+ .debug_pubtypes
+                0x00000000       0x5c arp.o
+ .debug_pubtypes
+                0x0000005c       0x50 dhcp.o
+ .debug_pubtypes
+                0x000000ac       0x39 enc28j60.o
+ .debug_pubtypes
+                0x000000e5       0x4b ethernet.o
+ .debug_pubtypes
+                0x00000130       0x68 http.o
+ .debug_pubtypes
+                0x00000198       0x32 icmp.o
+ .debug_pubtypes
+                0x000001ca       0x4c ip.o
+ .debug_pubtypes
+                0x00000216       0x46 ntAVRnet.o
+ .debug_pubtypes
+                0x0000025c       0x4e tcp.o
+ .debug_pubtypes
+                0x000002aa       0x2b timer.o
+ .debug_pubtypes
+                0x000002d5       0x58 uart.o
+ .debug_pubtypes
+                0x0000032d       0x80 udp.o
+
+.debug_ranges   0x00000000       0x30
+ .debug_ranges  0x00000000       0x30 http.o
